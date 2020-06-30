@@ -1,0 +1,84 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    padding: 0 20px;
+    font-size: 25px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px 0 5px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+a {
+    color: aliceblue;
+}
+
+li {
+    font-size: 20px;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header {
+    background-image: url("https://image-cdn.medkomtek.com/9inqLL5quZKpZlkdBBlW3y0Qgjs=/1x49:1000x612/640x360/filters:quality(75):strip_icc():format(webp)/klikdokter-media-buckets/medias/2302800/original/045285900_1547016776-4-Cara-Bikin-Kebiasaan-Minum-Kopi-Jadi-Lebih-Sehat-By-Ruslan-Semichev-Shutterstock.jpg");
+}
+
+main {
+    background-color: brown;
+}
+
+.kedua {
+    text-align: left;
+}
+
+footer {
+    text-align: right;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.list-photos img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.list-photos {
+    padding: 30px;
+    /* box-sizing: border-box;
+    border: 2px black solid; */
+    max-width: 20%;
+    display: inline-block;
+    justify-content: center;
+}
+
+.website-title {
+    text-align: left;
+    /* border: 3px gray dashed; */
+    /* margin-bottom: 10px; */
+}
+
+.website-title h1 span {
+    margin-top: 100px;
+    background: black;
+    color: white;
+}
+
+.main-title {
+    margin-top: 10px;
+    text-align: center;
+    /* border: 3px gray dashed; */
+    /* margin-bottom: 10px; */
+}
+
+.list-photos p {
+    text-align: center;
+}
