@@ -36,6 +36,9 @@ main {
     text-align: left;
 }
 
+.section1 {
+    align-content: center;
+}
 footer {
     text-align: right;
 }
